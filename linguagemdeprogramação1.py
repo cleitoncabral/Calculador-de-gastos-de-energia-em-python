@@ -61,4 +61,4 @@ while (setor_resp == 'sim'):
 total = acum_consumo*tarifa
 valor_total = (total*impostos)+total
 print ('----------------------------------\n')
-print('O total a pagar é ', valor_total, 'reais')
+print('O total a pagar é {:.2f} reais' .format(valor_total))
